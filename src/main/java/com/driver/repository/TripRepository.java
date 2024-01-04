@@ -4,13 +4,12 @@ import com.driver.model.Airport;
 import com.driver.model.City;
 import com.driver.model.Flight;
 import com.driver.model.Passenger;
-import org.springframework.stereotype.Repository;
 
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-@Repository
+
 public class TripRepository {
     private Map<String, Airport> airportMap = new HashMap<>();
     private Map<Integer, Flight> flightMap = new HashMap<>();
